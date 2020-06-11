@@ -74,6 +74,10 @@ export default {
   margin: 0;
 }
 
+p {
+  white-space: pre-line;
+}
+
 /* .post-image {
   margin-top: 85px;
 } */

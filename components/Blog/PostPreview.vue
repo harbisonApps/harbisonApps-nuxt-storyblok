@@ -8,7 +8,6 @@
           :style="{backgroundImage: 'url(' + thumbnail + ')'}"
           class="post-preview-thumbnail card-img-top bg-light"
           width="100%"
-          height="180"
         />
         <div class="card-body">
           <h2 class="h5 text-center">
@@ -17,19 +16,11 @@
           <p class="lead small font-italic text-center">
             {{ date }}
           </p>
-          <p class="card-text lead small mt-1">
+          <p class="card-text lead small text-center mt-1">
             {{ excerpt }}
           </p>
         </div>
       </div>
-      <!-- <div
-        :style="{backgroundImage: 'url(' + thumbnail + ')'}"
-        class="post-preview-thumbnail"
-      />
-      <div class="post-preview-content">
-        <h1>{{ title }}</h1>
-        <p>{{ excerpt }}</p>
-      </div> -->
     </article>
   </nuxt-link>
 </template>
@@ -70,7 +61,7 @@ export default {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 9rem;
+  height: 15rem;
 }
 
 </style>
